@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: rgb(45, 126, 45);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.book {
+  display: inline-block;
+  margin: 20px;
+}
+
+.book img {
+  width: 200px;
+  height: 250px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: rgb(45, 126, 45);
+  padding: 20px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+footer p {
+  margin: 0;
+  color: #fff;
+}
+
+body, html {
+  height: 100%;
+}
+
+
+.description {
+  display: flex;
+  border: 2px solid rgb(45, 126, 45);
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 800px;
+  margin-right: 20px;
+  background-color: rgb(45, 126, 45);
+  margin-bottom: 100px;
+  color: white;
+  
+}
+
+.description-content {
+  flex: 1;
+}
+
+.description-image img {
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.pdf-button {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.pdf-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: rgb(45, 126, 45);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.pdf-button a:hover {
+  background-color: #387e38;
+}
